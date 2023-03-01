@@ -165,8 +165,8 @@ while ( true ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/stats/iter/cugmean`][@stdlib/stats/iter/cugmean]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a cumulative geometric mean.</span>
--   <span class="package-name">[`@stdlib/stats/iter/cumean`][@stdlib/stats/iter/cumean]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a cumulative arithmetic mean.</span>
+-   <span class="package-name">[`@stdlib/stats-iter/cugmean`][@stdlib/stats/iter/cugmean]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a cumulative geometric mean.</span>
+-   <span class="package-name">[`@stdlib/stats-iter/cumean`][@stdlib/stats/iter/cumean]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a cumulative arithmetic mean.</span>
 
 </section>
 
