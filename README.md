@@ -65,7 +65,7 @@ The [harmonic mean][harmonic-mean] of positive real numbers `x_0, x_1, ..., x_{n
 ## Usage
 
 ```javascript
-import itercuhmean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-cuhmean@esm/index.mjs';
+import itercuhmean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-cuhmean@v0.1.1-esm/index.mjs';
 ```
 
 #### itercuhmean( iterator )
@@ -125,7 +125,7 @@ v = it.next().value;
 <script type="module">
 
 import runif from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-uniform@esm/index.mjs';
-import itercuhmean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-cuhmean@esm/index.mjs';
+import itercuhmean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-cuhmean@v0.1.1-esm/index.mjs';
 
 // Create an iterator for generating uniformly distributed pseudorandom numbers:
 var rand = runif( 0.0, 10.0, {
