@@ -65,6 +65,11 @@ The [harmonic mean][harmonic-mean] of positive real numbers `x_0, x_1, ..., x_{n
 ## Usage
 
 ```javascript
+import itercuhmean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-cuhmean@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-iter-cuhmean/tags). For example,
+
+```javascript
 import itercuhmean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-cuhmean@v0.2.1-deno/mod.js';
 ```
 
@@ -120,7 +125,7 @@ v = it.next().value;
 
 ```javascript
 import runif from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-uniform@deno/mod.js';
-import itercuhmean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-cuhmean@v0.2.1-deno/mod.js';
+import itercuhmean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-cuhmean@deno/mod.js';
 
 // Create an iterator for generating uniformly distributed pseudorandom numbers:
 var rand = runif( 0.0, 10.0, {
